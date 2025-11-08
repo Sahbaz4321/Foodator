@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg">
+
+    <ImageView
+        android:id="@+id/popularImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pizza1" />
+
+    <TextView
+        android:id="@+id/popularName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pepperoni Pizza"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/popularPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$9.76"
+        android:textSize="13sp"
+        android:textColor="#ff5e00"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Add"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12sp"
+        android:backgroundTint="#ff5e00"
+        android:textColor="#fff"
+        android:layout_marginTop="6dp" />
+</LinearLayout>
